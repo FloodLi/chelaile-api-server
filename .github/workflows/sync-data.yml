@@ -39,7 +39,7 @@ jobs:
           bun-version: 1.x
 
       - name: Install dependencies
-        run: bun install --frozen-lockfile
+        run: bun install
 
       - name: Refresh data/cities.json
         id: sync
