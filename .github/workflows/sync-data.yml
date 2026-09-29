@@ -50,12 +50,12 @@ jobs:
         id: commit
         run: |
           git add data/cities.json
-          git add bun.lock package.json
-          if git diff --cached --quiet -- data/cities.json; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-            echo "Dataset unchanged; nothing to commit."
-            exit 0
-          fi
+          git add bun.lock
+          # if git diff --cached --quiet -- data/cities.json; then
+          #   echo "changed=false" >> "$GITHUB_OUTPUT"
+          #   echo "Dataset unchanged; nothing to commit."
+          #   exit 0
+          # fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
