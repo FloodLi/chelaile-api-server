@@ -109,7 +109,7 @@ DATA_BASE_URL="https://cdn.jsdelivr.net/gh/Justintunsday/chelaile-api-server@mai
 | **Codespaces（临时）** | 仓库 → Code → Codespaces 启动，`npm ci && npm run build && npm start`，把 8787 端口设为 Public | 获得临时公网地址，仅用于测试 |
 
 Cloudflare Workers（`worker/` 目录复用同一套业务逻辑，本地可 `npm run dev:worker`）：
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://github.com/FloodLi/chelaile-api-server/blob/main/worker)
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/FloodLi/chelaile-api-server/worker)
 
 
 ```bash
