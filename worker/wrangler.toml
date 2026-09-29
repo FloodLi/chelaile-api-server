@@ -17,9 +17,9 @@ custom_domain = true
 [vars]
 # Static city dataset (GitHub / jsDelivr). Falls back to the bundled
 # data/cities.json and then to the upstream API if unreachable.
-DATA_BASE_URL = "https://cdn.jsdelivr.net/gh/Justintunsday/chelaile-api-server@main/data"
+DATA_BASE_URL = "https://cdn.jsdelivr.net/gh/FloodLi/chelaile-api-server@main/data"
 # CORS_ORIGIN = "*"
-# API_KEY is a secret: `npx wrangler secret put API_KEY -c worker/wrangler.toml`
+API_KEY is a secret: `npx wrangler secret put API_KEY -c worker/wrangler.toml`
 
 [observability]
 enabled = true
