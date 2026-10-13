@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-29T05:40:07.387Z",
+  "updatedAt": "2026-10-13T10:29:56.896Z",
   "source": "chelaile:/wwd/ncitylist",
-  "count": 491,
+  "count": 492,
   "cities": [
     {
       "cityId": "027",
@@ -3437,6 +3437,13 @@
       "cityId": "608",
       "cityName": "阜新",
       "pinyin": "FuXin",
+      "supportSubway": false,
+      "hot": false
+    },
+    {
+      "cityId": "609",
+      "cityName": "遂宁",
+      "pinyin": "SuiNing",
       "supportSubway": false,
       "hot": false
     }
