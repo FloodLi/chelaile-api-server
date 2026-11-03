@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-16T08:06:27.381Z",
+  "updatedAt": "2026-11-03T10:46:43.851Z",
   "source": "chelaile:/wwd/ncitylist",
-  "count": 493,
+  "count": 492,
   "cities": [
     {
       "cityId": "027",
@@ -1232,13 +1232,6 @@
       "cityId": "240",
       "cityName": "祁县",
       "pinyin": "QiXian",
-      "supportSubway": false,
-      "hot": false
-    },
-    {
-      "cityId": "244",
-      "cityName": "万荣",
-      "pinyin": "WanRong",
       "supportSubway": false,
       "hot": false
     },
