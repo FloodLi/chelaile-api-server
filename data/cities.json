@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-03T10:46:43.851Z",
+  "updatedAt": "2026-11-23T12:24:57.836Z",
   "source": "chelaile:/wwd/ncitylist",
-  "count": 492,
+  "count": 493,
   "cities": [
     {
       "cityId": "027",
@@ -3444,6 +3444,13 @@
       "cityId": "610",
       "cityName": "文昌",
       "pinyin": "WenChang",
+      "supportSubway": false,
+      "hot": false
+    },
+    {
+      "cityId": "611",
+      "cityName": "崇左",
+      "pinyin": "ChongZuo",
       "supportSubway": false,
       "hot": false
     }
